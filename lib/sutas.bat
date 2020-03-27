@@ -1,0 +1,2 @@
+@echo OFF
+sutas.py %*

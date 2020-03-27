@@ -1,0 +1,1 @@
+This folder shall contain test data (yaml or excel representation) specific to SUTAS Automation framework

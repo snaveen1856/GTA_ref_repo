@@ -1,0 +1,3 @@
+smoketestsuite.robot	smoke_test_config.yaml		TM-4134		None	"Must Pass Test"
+smoketestsuite.robot	smoke_test_config.yaml		TM-4134		None	"Build Acceptance Test"
+smoketestsuite.robot	smoke_test_config.yaml		TM-4134		None	"Feature Acceptance Test"

@@ -1,0 +1,1 @@
+This folder shall contain all the keywords developed specific to SUTAS Automation framework

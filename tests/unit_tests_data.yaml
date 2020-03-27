@@ -1,0 +1,130 @@
+project_fields:
+- 'id': 'issuetype'
+  'name': 'Issue Type'
+- 'id': 'timespent'
+  'name': 'Time Spent'
+- 'id': 'project'
+  'name': 'Project'
+- 'id': 'fixVersions'
+  'name': 'Fix Version/s'
+- 'id': 'aggregatetimespent'
+  'name': "\u03A3 Time Spent"
+- 'id': 'resolution'
+  'name': 'Resolution'
+- 'id': 'customfield_10302'
+  'name': 'Automated'
+- 'id': 'customfield_10500'
+  'name': 'Severity'
+- 'id': 'customfield_10304'
+  'name': 'Actual result'
+- 'id': 'customfield_10305'
+  'name': 'Build run against'
+- 'id': 'resolutiondate'
+  'name': 'Resolved'
+- 'id': 'workratio'
+  'name': 'Work Ratio'
+- 'id': 'lastViewed'
+  'name': 'Last Viewed'
+- 'id': 'watches'
+  'name': 'Watchers'
+- 'id': 'thumbnail'
+  'name': 'Images'
+- 'id': 'created'
+  'name': 'Created'
+- 'id': 'priority'
+  'name': 'Priority'
+- 'id': 'customfield_10100'
+  'name': 'HitCount'
+- 'id': 'customfield_10300'
+  'name': 'sutas_id'
+- 'id': 'labels'
+  'name': 'Labels'
+- 'id': 'timeestimate'
+  'name': 'Remaining Estimate'
+- 'id': 'aggregatetimeoriginalestimate'
+  'name': "\u03A3 Original Estimate"
+- 'id': 'versions'
+  'name': 'Affects Version/s'
+- 'id': 'issuelinks'
+  'name': 'Linked Issues'
+- 'id': 'assignee'
+  'name': 'Assignee'
+- 'id': 'updated'
+  'name': 'Updated'
+- 'id': 'status'
+  'name': 'Status'
+- 'id': 'components'
+  'name': 'Component/s'
+- 'id': 'issuekey'
+  'name': 'Key'
+- 'id': 'timeoriginalestimate'
+  'name': 'Original Estimate'
+- 'id': 'description'
+  'name': 'Description'
+- 'id': 'timetracking'
+  'name': 'Time Tracking'
+- 'id': 'customfield_10005'
+  'name': 'Sprint'
+- 'id': 'customfield_10006'
+  'name': 'Story Points'
+- 'id': 'security'
+  'name': 'Security Level'
+- 'id': 'customfield_10206'
+  'name': 'Preconditions'
+- 'id': 'attachment'
+  'name': 'Attachment'
+- 'id': 'aggregatetimeestimate'
+  'name': "\u03A3 Remaining Estimate"
+- 'id': 'customfield_10207'
+  'name': 'Expected Result'
+- 'id': 'summary'
+  'name': 'Summary'
+- 'id': 'creator'
+  'name': 'Creator'
+- 'id': 'subtasks'
+  'name': 'Sub-Tasks'
+- 'id': 'reporter'
+  'name': 'Reporter'
+- 'id': 'customfield_10400'
+  'name': 'Test Type'
+- 'id': 'environment'
+  'name': 'Environment'
+- 'id': 'duedate'
+  'name': 'Due Date'
+- 'id': 'progress'
+  'name': 'Progress'
+- 'id': 'comment'
+  'name': 'Comment'
+- 'id': 'votes'
+  'name': 'Votes'
+- 'id': 'worklog'
+  'name': 'Log Work'
+tc_data:
+  components: []
+  customfield_10206: null
+  customfield_10207: Pass
+  customfield_10300: TM-4134
+  customfield_10302:
+  - value: true
+  customfield_10400:
+  - value: Smoke
+  description: Description for Testcase
+  fixVersions:
+  - name: Master Copy Library
+  - name: Master Copy Library2
+  issuetype:
+    name: Test Case
+  labels: []
+  priority: Medium
+  project: SUTAS
+  summary: This is test case
+ts_data:
+  description: This is description
+  fixVersions:
+  - name: Master Copy Library
+  - name: Master Copy Library2
+  issuetype:
+    name: Test Suite
+  labels: []
+  project: SUTAS
+  summary: This is test suite

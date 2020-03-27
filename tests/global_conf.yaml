@@ -1,0 +1,38 @@
+Consolidatedmail: 'yes'
+Database:
+  database_name: postgres
+  prune: 'yes'
+  serverOStype: linux
+  serverip: 10.130.205.55
+Email:
+  ValidateEmails: 'yes'
+  recipients: ramarao.kedarasetti@sungardas.com
+  smtpip: 172.16.0.5
+  smtpport: 25
+EmailNotifications: 'yes'
+EnableDatabase: 'yes'
+EnableTestArtifacts: 'yes'
+EnableTestManagement: 'yes'
+Jira:
+  affects_version: 0.1.0
+  bugpriority: '2'
+  bugseverity: '2'
+  url: http://10.130.205.11:8080
+  watcher: ''
+LogLevel: warn
+Raise_Bugs: 'yes'
+Slack:
+  channelname: ''
+SlackNotifications: 'no'
+Teams:
+  url: https://outlook.office.com/webhook/5c667ee5-5b0c-4dfd-9066-99d75e0e626a@a2964a1d-c9d7-420b-8895-566840c1b583/IncomingWebhook/2e07edd37bdf44c69837290c3a8b0fe4/e83901ab-4cbb-4873-84b2-90555802fb66
+TeamsNotifications: 'yes'
+TestArtifact:
+  serverip: 172.16.0.41
+TestEnv: TEST
+symmetric_key: '12345'
+TM_Project: TM
+environment: test
+project: harini
+sprint_number: ''
+fix_version: DailyExecution

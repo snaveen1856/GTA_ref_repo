@@ -1,0 +1,4 @@
+device:
+    ip: 1.1.1.1
+    username: admin
+    password: password

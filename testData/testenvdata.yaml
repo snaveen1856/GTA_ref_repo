@@ -1,0 +1,27 @@
+envlist:
+- QA
+- UAT
+- DEV
+- PRODUCTION
+TestBuildTypes:
+- Must Pass Test
+- Build Acceptance Test
+- Feature Acceptance Test
+- Business Acceptance Test (Scenario)
+- Security test
+- Performance Test
+Threshold_Buildtype_Mapping:
+  Build Acceptance Test: 100
+  Business Acceptance Test (Scenario): 80
+  Feature Acceptance Test: 90
+  Must Pass Test: 100
+  Performance Test: 80
+  Security test: 70
+Boards:
+- HPC Sprint Backlog
+- CBR3.0
+- SS - Scrum Overview
+- Aves (CBR - NextGen) Board
+- EWN Sprint Backlog
+- msw ma
+- UK-SOVEREIGN Board
