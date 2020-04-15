@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+#print('hello-world')
+import os
+import sys
+
+cmd1 = r"sutas user_setup --raisebugs {{raisebugs}} --jirapwd '' --jira_affect_version '' --jiraenv {{jiraenv}} --loglevel {{loglevel}} --slack {{slack}} --slacktoken '' --emailnotifications {{emailnotifications}} --symmetrickey {{symmetrickey}} --teamsnotifications {{teamsnotifications}} --consolidatedmail {{consolidatedmail}} --enabledatabase {{enabledatabase}} --dbpassword '' --dbserverpwd '' --enabletestmanagement {{enabletestmanagement}} --sprintnumber '' --fixversion '' --tm_project '' --enablepushtestartifacts {{enablepushtestartifacts}} --testaritfactsserverpwd '' --jiraproj ''"
+
+
+os.system(cmd1)
+cmd2 = r"sutas execute -s tests/test.robot -c tests/smoke_test_config.yaml"
+os.system(cmd2)
+

@@ -54,6 +54,6 @@ def _get_line_number(logfile, str):
     with open(logfile, 'r') as suitelog:
         log_data = suitelog.readlines()
         for num, line in enumerate(log_data, 1):
-            if str in line.decode('utf-8'):
+            if str in line:
                     return num
 
