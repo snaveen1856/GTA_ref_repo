@@ -8,7 +8,7 @@ slackclient==2.4.0
 #pycrypto>=2.6.1
 pycryptodome==3.9.4
 pywinrm==0.4.1
-PyYAML==5.2
+PyYAML==5.4
 setuptools_scm==3.3.3
 pytest-runner==5.2
 pbr==5.4.4
